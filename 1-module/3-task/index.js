@@ -1,3 +1,5 @@
 function ucFirst(str) {
-  // ваш код...
+    // ваш код...
+    'use strict';
+    return str.charAt(0).toUpperCase() + str.slice(1);
 }
