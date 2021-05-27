@@ -1,5 +1,5 @@
 function highlight(table) {
-    
+  
     let headRows = table.rows[0];
     let columnsIndex = {};
 
@@ -32,4 +32,5 @@ function highlight(table) {
         (age.textContent) < 18 ? age.style.textDecoration = 'line-through' : age.style.textDecoration = '';
         console.log(age);
     }
+
 }
