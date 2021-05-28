@@ -1,3 +1,5 @@
 function toggleText() {
-  // ваш код...
+  document.querySelector('button').onclick = function(){
+      text.hidden = !text.hidden;
+  }
 }
