@@ -6,5 +6,4 @@ function makeFriendsList(friends) {
         li.textContent = el['firstName'] + ' ' + el['lastName'];
         ul.append(li);
     }
-    return ul;
 }
